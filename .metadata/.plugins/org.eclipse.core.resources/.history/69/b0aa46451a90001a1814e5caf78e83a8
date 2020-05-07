@@ -1,0 +1,22 @@
+package com.ict.edu;
+
+public class Ex04 {
+	public static void main(String[] args) {
+		// switch ~ case : if문과 같이 조건문
+		// if문은 조건식이 boolea형이다. 즉 비교연산, 논리연산, boolean형 사용
+		// switch문은 인자값이 byte, short, int, char, String 일때 사용
+		// switch(인자값){
+		//   case 조건값1 : 인자값과 조건값1과 같을때 수행할 문장 ; break;
+		//   case 조건값2 : 인자값과 조건값2과 같을때 수행할 문장 ; break;
+		//   case 조건값3 : 인자값과 조건값3과 같을때 수행할 문장 ; break;
+		//   default : 조건값1,2,3 모두 같지 않을 때 수행할 문장 ;
+		//  }
+		
+		// char k1이 A이면 아프리카, B이면 브라질, C이면 캐나다 나머지 한국 
+		
+		// int k2가 1 또는 3이면 남자, 2 또는 4이면 여자
+		
+		// String k3이 한국이면 = 서울 , 중국이면 = 북경 , 일본이면 = 동경, 미국이면 = 워싱턴
+		
+	}
+}
