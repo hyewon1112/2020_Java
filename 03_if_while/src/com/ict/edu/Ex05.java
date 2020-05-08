@@ -42,17 +42,17 @@ public class Ex05 {
 			System.out.println(i);
 		}
 		
-		// 0 - 11 까지 짝수만 출력하기 
-		for (int i = 0 ; i < 12; i = i+2) {
+		// 0 - 10 까지 짝수만 출력하기 
+		for (int i = 0 ; i < 11; i = i+2) {
 			System.out.println(i);
 		}
 		
-		for (int i = 0; i < 12 ; i++) {
+		for (int i = 0; i < 11 ; i++) {
 			if (i % 2 == 0) {
 				System.out.println(i);
 			}
 		}	
-		for (int i = 0; i < 12 ; i++) {
+		for (int i = 0; i < 11 ; i++) {
 			if (i % 2 == 1) {
 				System.out.println(i);
 			  }
