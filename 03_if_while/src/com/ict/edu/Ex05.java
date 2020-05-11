@@ -2,138 +2,140 @@ package com.ict.edu;
 
 public class Ex05 {
 	
-
 	public static void main(String[] args) {
-		// for¹® : Á¤ÇØÁø ±ÔÄ¢¿¡ µû¶ó ½ÇÇà¹®À» ¹İº¹Ã³¸®ÇÏ´Â ¹®
-		// for(ÃÊ±â½Ä; Á¶°Ç½Ä; Áõ°¨½Ä){
-		//	  Á¶°Ç½ÄÀÌ ÂüÀÏ¶§ ½ÇÇàÇÒ ¹®Àå ;
-		// 	}
-		// for¹®Àº ¹«Á¶°Ç ÃÊ±â½ÄºÎÅÍ ½ÃÀÛÇÑ´Ù. Á¶°Ç½ÄÀ¸·Î ÀÌµ¿
-		// Á¶°Ç½ÄÀº booleanÇü(boolean, ºñ±³¿¬»ê, ³í¸®¿¬»ê)
-		// Á¶°Ç½ÄÀÌ ÂüÀÌ¸é for¹® ¾ÈÂÊ ºí·ÏÀ» ½ÇÇàÇÑ´Ù.
-		// Á¶°Ç½ÄÀÌ °ÅÁşÀÌ¸é for¹® ½ÇÇàÇÏÁö ¾Ê´Â´Ù.
-		// for¹®ÀÇ ³¡À» ¸¸³ª¸é ¹«Á¶°Ç Áõ°¨½ÄÀ¸·Î °£´Ù.
-		// Áõ°¨½ÄÀº ÃÊ±â½ÄÀ» Áõ°¡ÇÏ°Å³ª °¨¼Ò½ÃÅ°´Â ¿ªÇÒÀ» ÇÏ°í
-		// ´Ù½Ã Á¶°Ç½ÄÀ¸·Î °£´Ù.
 		
-		// ÀÚ¹Ù¿¡¼­´Â if¹®, switch¹®, for¹® ¾È¿¡ ¸¸µç º¯¼ö´Â
-		// ¹Û¿¡¼­ »ç¿ëÇÒ ¼ö ¾ø´Ù.
+		// forë¬¸ : ì •í•´ì§„ ê·œì¹™ì— ë”°ë¼ ì‹¤í–‰ë¬¸ì„ ë°˜ë³µ ì²˜ë¦¬í•˜ëŠ” ë¬¸
+		// for(ì´ˆê¸°ì‹; ì¡°ê±´ì‹; ì¦ê°ì‹){
+		//    ì¡°ê±´ì‹ì´ ì°¸ì¼ë•Œ ì‹¤í–‰í•  ë¬¸ì¥ ;
+		//  }
+		//  forë¬¸ì€ ë¬´ì¡°ê±´ ì´ˆê¸°ì‹ë¶€í„° ì‹œì‘í•œë‹¤. ì¡°ê±´ì‹ìœ¼ë¡œ ì´ë™
+		//  ì¡°ê±´ì‹ì€ booleaní˜•(boolean, ë¹„êµì—°ì‚°, ë…¼ë¦¬ì—°ì‚°)
+		//  ì¡°ê±´ì‹ì´ ì°¸ì´ë©´ forë¬¸ ì•ˆìª½ ë¸”ë¡ì„ ì‹¤í–‰í•œë‹¤.
+		//  ì¡°ê±´ì‹ì´ ê±°ì§“ì´ë©´ forë¬¸ ì‹¤í–‰í•˜ì§€ ì•ŠëŠ”ë‹¤.
+		//  forë¬¸ì˜ ëì„ ë§Œë‚˜ë©´ ë¬´ì¡°ê±´ ì¦ê°ì‹ìœ¼ë¡œ ê°„ë‹¤.
+		//  ì¦ê°ì‹ì€ ì´ˆê¸°ì‹ì„ ì¦ê°€í•˜ê±°ë‚˜ ê°ì†Œì‹œí‚¤ëŠ” ì—­í• ì„ í•˜ê³  
+		//  ë‹¤ì‹œ ì¡°ê±´ì‹ìœ¼ë¡œ ê°„ë‹¤.
 		
-		// ¾È³çÇÏ¼¼¿ä ¿­¹ø Ãâ·ÂÇÏ±â
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("===========================");
+		// ìë°”ì—ì„œëŠ” ifë¬¸, switchë¬¸, forë¬¸ ì•ˆì— ë§Œë“  ë³€ìˆ˜ëŠ” 
+		// ë°–ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
+		
+		// ì•ˆë…•í•˜ì„¸ìš” ì—´ë²ˆ ì¶œë ¥í•˜ê¸° 
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("==========================");
+		
 		for (int i = 1; i < 11; i++) {
 			System.out.println(i + " = Hello");
 		}
+		System.out.println("==========================");
 		
-		System.out.println("===========================");
+		// 0 - 10 ê¹Œì§€ ì¶œë ¥í•˜ê¸° 
+		for (int i = 0; i <11; i++) {
+			System.out.println(i);
+		}
+		System.out.println("==========================");
 		
-		// 0 - 10 ±îÁö Ãâ·ÂÇÏ±â
+		// 0 - 10 ê¹Œì§€ ì§ìˆ˜ë§Œ ì¶œë ¥í•˜ê¸° 
+		for (int i = 0; i < 11; i = i+2) {
+			System.out.println(i);
+		}
+		System.out.println("==========================");
+		
 		for (int i = 0; i < 11; i++) {
-			System.out.println(i);
-		}
-		
-		// 0 - 10 ±îÁö Â¦¼ö¸¸ Ãâ·ÂÇÏ±â 
-		for (int i = 0 ; i < 11; i = i+2) {
-			System.out.println(i);
-		}
-		
-		for (int i = 0; i < 11 ; i++) {
 			if (i % 2 == 0) {
 				System.out.println(i);
 			}
-		}	
-		for (int i = 0; i < 11 ; i++) {
+		}
+		System.out.println("==========================");
+		
+		// 0 - 10 ê¹Œì§€ í™€ìˆ˜ë§Œ ì¶œë ¥ 
+		for (int i = 0; i < 11; i++) {
 			if (i % 2 == 1) {
 				System.out.println(i);
-			  }
+			}
 		}
+		System.out.println("==========================");
 		
-		// 0 - 50 ±îÁö 7ÀÇ ¹è¼ö Ãâ·Â
-		
+		// 0 - 50 ê¹Œì§€ 7ì˜ ë°°ìˆ˜ ì¶œë ¥
 		for (int i = 0; i < 51; i++) {
 			if (i % 7 == 0) {
-				// Ãâ·Â ÈÄ ÇÑ ÁÙ ¶ç¿ì±â
+				// ì¶œë ¥ í›„ í•œ ì¤„ ë„ìš°ê¸° 
 				System.out.println(i);
 			}
 		}
 		
-		//  a - g
-		for (char i = 'a'; i <= 'g' ; i++) {
-			// ¿·À¸·Î Ãâ·ÂÇÏ±â, \ t´Â tabÀ» ÀÇ¹Ì
-			System.out.print(i + "\t");
+		// a - g
+		for (char i = 'a'; i <= 'g'; i++) {
+			// ì˜†ìœ¼ë¡œ ì¶œë ¥í•˜ê¸°,  \tëŠ” tabì„ ì˜ë¯¸ 
+			System.out.print(i+"\t");
+		}
+		// \n ëŠ” í•œì¤„ ë„ìš°ê¸° 
+		System.out.print("ê°€ë‚˜\në‹¤ë¼");
+		// í•œ ì¤„ ë„ìš°ê¸° 
+		System.out.println();
+		// ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ë©”ì†Œë“œ
+		// System.out.print();
+		
+		// System.out.println() : ì¤„ ë°”ê¾¸ê¸° 
+		// System.out.print() : ì¡´ì¬í•˜ì§€ ì•ŠìŒ
+		// System.out.println(ë³€ìˆ˜ë‚˜ ë°ì´í„°) : ì¶œë ¥ í›„ ì¤„ ë°”ê¾¸ê¸° 
+		// System.out.print(ë³€ìˆ˜ë‚˜ ë°ì´í„°) : ì˜†ìœ¼ë¡œ ì¶œë ¥í•˜ê¸° 
+		
+		// 5ë‹¨ ì¶œë ¥ 
+		for (int i = 1; i < 10; i++) {
+			System.out.println("5 * " + i + " = " + (5*i));
 		}
 		
-		// \n ´Â ÇÑÁÙ ¶ç¿ì±â 
-		System.out.println("°¡³ª\n´Ù¶ó");
-		// ÇÑ ÁÙ ¶ç¿ì±â
+		// 0 0 0 0
+		// 0 0 0 0 
+		// 0 0 0 0 
+		// 0 0 0 0 
+		for (int i = 1; i < 5; i++) {
+			System.out.println("0 0 0 0");
+		}
 		System.out.println();
 		
-		// Á¸ÀçÇÏÁö ¾Ê´Â ¸Ş¼Òµå 
-		//System.out.print();
-		
-		//System.out.println(); : ÁÙ ¹Ù²Ù±â
-		//System.out.print(); : Á¸ÀçÇÏÁö ¾ÊÀ½
-		// System.out.println(º¯¼ö³ª µ¥ÀÌÅÍ); : Ãâ·Â ÈÄ ÁÙ ¹Ù²Ù±â 
-		//System.out.print(º¯¼ö³ª µ¥ÀÌÅÍ); : ¿·À¸·Î Ãâ·ÂÇÏ±â
-		
-		// 5´Ü Ãâ·ÂÇÏ±â
-		for (int i = 1; i < 10; i++) {
-			System.out.println("5 * " + i + " = " + (5 * i));
-		}
-		
-		// 0 0 0 0 
-		// 0 0 0 0 
-		// 0 0 0 0 
-		// 0 0 0 0 	
-	
-		for (int i = 1; i < 5; i++) {
-			System.out.println("0 0 0 0");		
-		}
-		System.out.println();	
-		
 		for (int i = 1; i < 17; i++) {
-			System.out.print("0");
+			System.out.print("0 ");
 			if (i % 4 == 0) {
 				System.out.println();
 			}
 		}
-	
-		// 0-10 ´©ÀûÇÕ (ÇÕ°è)
-		int sum = 0 ; // ÀÌÀü °ªÀ» ±â¾ï½ÃÅ°´Â º¯¼ö
-		for (int i = 0; i < 11; i++) {
-			sum = sum + i ; // i ÀÇ ´©ÀûÇÕ
-		}
-		System.out.println("´©ÀûÇÕ :" + sum );
 		
-		// 0-10 È¦¼öÀÇ ÇÕ°è,
+		// 0-10ëˆ„ì í•© (í•©ê³„)
+		int sum = 0 ; // ì´ì „ ê°’ì„ ê¸°ì–µì‹œí‚¤ëŠ” ë³€ìˆ˜
+		for (int i = 0; i < 11; i++) {
+			sum = sum + i ; // i ì˜ ëˆ„ì í•©
+		}
+		System.out.println("ëˆ„ì í•© : " + sum);
+		
+		// 0-10 í™€ìˆ˜ì˜ í•©ê³„,
 		int odd = 0 ;
 		for (int i = 0; i < 11; i++) {
 			if (i % 2 == 1) {
 				odd = odd + i ;
 			}
 		}
-		System.out.println("È¦¼öÀÇ ÇÕ :" + odd);
+		System.out.println("í™€ìˆ˜ì˜ í•© : " + odd);
 		
-		// 0-10 Â¦¼öÀÇ ÇÕ°è,
+		// 0-10 ì§ìˆ˜ì˜ í•©ê³„
 		int even = 0 ;
 		for (int i = 0; i < 11; i++) {
 			if (i % 2 == 0) {
 				even = even + i ;
 			}
 		}
-		System.out.println("Â¦¼öÀÇ ÇÕ :" + even);
+		System.out.println("ì§ìˆ˜ì˜ í•© : " + even);
 		
-		// 0-10 È¦¼ö, Â¦¼öÀÇ ÇÕ°è
+		// 0-10 í™€ìˆ˜, ì§ìˆ˜ì˜ í•©ê³„
 		odd = 0 ;
 		even = 0 ;
 		for (int i = 0; i < 11; i++) {
@@ -143,21 +145,39 @@ public class Ex05 {
 				odd = odd + i ;
 			}
 		}
-		
-		
-		System.out.println("Â¦¼öÀÇ ÇÕ :" + even);
-		System.out.println("È¦¼öÀÇ ÇÕ :" + odd);
-		
+		System.out.println("ì§ìˆ˜ì˜ í•© : " + even);
+		System.out.println("í™€ìˆ˜ì˜ í•© : " + odd);
 		
 		// 7!(7 * 6 * 5 * 4 * 3 * 2 * 1)
 		sum = 1 ;
 		for (int i = 7; i > 0; i--) {
 			sum = sum * i ;
 		}
-		System.out.println("7 ! :" + sum);
-		
-		} 
-		
+		System.out.println("7 ! : " + sum);
 	}
-		
-	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

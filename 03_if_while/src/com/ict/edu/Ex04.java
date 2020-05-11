@@ -1,89 +1,104 @@
 package com.ict.edu;
 
-import java.lang.invoke.SwitchPoint;
-
 public class Ex04 {
 	public static void main(String[] args) {
-		// switch ~ case : if¹®°ú °°ÀÌ Á¶°Ç¹®
-		// if¹®Àº Á¶°Ç½ÄÀÌ booleaÇüÀÌ´Ù. Áï ºñ±³¿¬»ê, ³í¸®¿¬»ê, booleanÇü »ç¿ë
-		// switch¹®Àº ÀÎÀÚ°ªÀÌ byte, short, int, char, String ÀÏ¶§ »ç¿ë
-		// switch(ÀÎÀÚ°ª){
-		//   case Á¶°Ç°ª1 : ÀÎÀÚ°ª°ú Á¶°Ç°ª1°ú °°À»¶§ ¼öÇàÇÒ ¹®Àå ; break;
-		//   case Á¶°Ç°ª2 : ÀÎÀÚ°ª°ú Á¶°Ç°ª2°ú °°À»¶§ ¼öÇàÇÒ ¹®Àå ; break;
-		//   case Á¶°Ç°ª3 : ÀÎÀÚ°ª°ú Á¶°Ç°ª3°ú °°À»¶§ ¼öÇàÇÒ ¹®Àå ; break;
-		//   default : Á¶°Ç°ª1,2,3 ¸ğµÎ °°Áö ¾ÊÀ» ¶§ ¼öÇàÇÒ ¹®Àå ;
-		//  }
-		// break°¡ ¾øÀ¸¸é break¸¦ ¸¸³¯¶§ ±îÁö ¸ğµç ½ÇÇà¹®À» ½ÇÇà
-		// break ¿ªÇÒÀº ÇöÀç ½ÇÇàÇÏ°í ÀÖ´Â ¹üÀ§¸¦ ¹ş¾î³ª´Â ¿ªÇÒ
 		
-		// char k1ÀÌ AÀÌ¸é ¾ÆÇÁ¸®Ä«, BÀÌ¸é ºê¶óÁú, CÀÌ¸é Ä³³ª´Ù ³ª¸ÓÁö ÇÑ±¹ 
-		char k1 = 'C' ;
-		String res = "" ;
+		// switch ~ case : ifë¬¸ê³¼ ê°™ì´ ì¡°ê±´ë¬¸
+		// ifë¬¸ì€ ì¡°ê±´ì‹ì´ booleaní˜•ì´ë‹¤. ì¦‰ ë¹„êµì—°ì‚°, ë…¼ë¦¬ì—°ì‚°, booleaní˜• ì‚¬ìš©
+		// switchë¬¸ì€ ì¸ìê°’ì´ byte, short, int, char , String ì¼ ë•Œ ì‚¬ìš©
+		// switch(ì¸ìê°’){
+		//   case ì¡°ê±´ê°’1 : ì¸ìê°’ê³¼ ì¡°ê±´ê°’1ê³¼ ê°™ì„ë•Œ ìˆ˜í–‰í•  ë¬¸ì¥ ; break;
+		//   case ì¡°ê±´ê°’2 : ì¸ìê°’ê³¼ ì¡°ê±´ê°’2ê³¼ ê°™ì„ë•Œ ìˆ˜í–‰í•  ë¬¸ì¥ ; break;
+		//   case ì¡°ê±´ê°’3 : ì¸ìê°’ê³¼ ì¡°ê±´ê°’3ê³¼ ê°™ì„ë•Œ ìˆ˜í–‰í•  ë¬¸ì¥ ; break;
+		//   default : ì¡°ê±´ê°’1,2,3 ëª¨ë‘ ê°™ì§€ ì•Šì„ ë•Œ ìˆ˜í–‰í•  ë¬¸ì¥ ;
+		// } 
+		// break ê°€ ì—†ìœ¼ë©´ breakë¥¼ ë§Œë‚ ë•Œ ê¹Œì§€ ëª¨ë“  ì‹¤í–‰ë¬¸ì„ ì‹¤í–‰
+		// break ì—­í• ì€ í˜„ì‹¤í–‰í•˜ê³  ìˆëŠ” ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ëŠ” ì—­í•  
+		
+		// char k1ì´ Aì´ë©´ ì•„í”„ë¦¬ì¹´, Bì´ë©´ ë¸Œë¼ì§ˆ, Cì´ë©´ ìºë‚˜ë‹¤ ë‚˜ë¨¸ì§€ í•œêµ­
+		char k1 ='C';
+		String res ="";
 		switch (k1) {
-		case 'A' : System.out.println("¾ÆÇÁ¸®Ä«"); break;
-		case 'B' : System.out.println("ºê¶óÁú"); break;
-		case 'C' : System.out.println("Ä³³ª´Ù"); break;
-		default  : System.out.println("ÇÑ±¹");  break;
+		case 'A': System.out.println("ì•„í”„ë¦¬ì¹´"); break; 
+		case 'B': System.out.println("ë¸Œë¼ì§ˆ");  break;
+		case 'C': System.out.println("ìºë‚˜ë‹¤"); break;
+		default : System.out.println("í•œêµ­");    break;
 		}
 		
-		char k2 = 'B' ;
+		char k2 = 'B';
 		switch (k2) {
-		case 'A' : res = "¾ÆÇÁ¸®Ä«"; break;
-		case 'B' : res ="ºê¶óÁú"; break;
-		case 'C' : res ="Ä³³ª´Ù"; break;
-		default  : res ="ÇÑ±¹"; break;
+		case 'A': res = "ì•„í”„ë¦¬ì¹´"; break;
+		case 'B': res = "ë¸Œë¼ì§ˆ"; break;
+		case 'C': res = "ìºë‚˜ë‹¤"; break;
+		default : res = "í•œêµ­"; break;
 		}
-		System.out.println("°á°ú :" + res);
+		System.out.println("ê²°ê³¼ : " + res);
 		
-		// char k3ÀÌ A,aÀÌ¸é ¾ÆÇÁ¸®Ä«, B,bÀÌ¸é ºê¶óÁú, C,c ÀÌ¸é Ä³³ª´Ù ³ª¸ÓÁö ÇÑ±¹
-		char k3 = 'b' ;
+		// char k3ì´ A,aì´ë©´ ì•„í”„ë¦¬ì¹´, B,bì´ë©´ ë¸Œë¼ì§ˆ, C,cì´ë©´ ìºë‚˜ë‹¤ ë‚˜ë¨¸ì§€ í•œêµ­
+		char k3 ='A';
 		switch (k3) {
-		case 'A': res = "¾ÆÇÁ¸®Ä«"; break;
-		case 'a': res = "¾ÆÇÁ¸®Ä«"; break;		
-		case 'B': res ="ºê¶óÁú"; break;
-		case 'b': res ="ºê¶óÁú"; break;		
-		case 'C': res ="Ä³³ª´Ù"; break;
-		case 'c': res ="Ä³³ª´Ù"; break;		
-		default: res ="ÇÑ±¹"; break;			
+		case 'A': res ="ì•„í”„ë¦¬ì¹´"; break;
+		case 'a': res ="ì•„í”„ë¦¬ì¹´"; break;
+		case 'B': res ="ë¸Œë¼ì§ˆ"; break;
+		case 'b': res ="ë¸Œë¼ì§ˆ"; break;
+		case 'C': res ="ìºë‚˜ë‹¤"; break;
+		case 'c': res ="ìºë‚˜ë‹¤"; break;
+		default: res = "í•œêµ­";	break;
 		}
-		System.out.println("°á°ú :" + res);
+		System.out.println("ê²°ê³¼ : " + res);
 		
-		// int k4°¡ 1 ¶Ç´Â 3ÀÌ¸é ³²ÀÚ, 2 ¶Ç´Â 4ÀÌ¸é ¿©ÀÚ
-	    int k4 = 1 ;
-	    switch (k4) {
+		switch (k3) {
+		case 'A':
+		case 'a': res = "ì•„í”„ë¦¬ì¹´"; break;
+		case 'B': 
+		case 'b': res = "ë¸Œë¼ì§ˆ"; break;
+		case 'C': 
+		case 'c': res = "ìºë‚˜ë‹¤"; break;
+		default: res = "í•œêµ­";	break;
+		}
+		System.out.println("ê²°ê³¼ : " + res);
+		
+		// int k4ê°€ 1 ë˜ëŠ” 3ì´ë©´ ë‚¨ì, 2 ë˜ëŠ” 4ì´ë©´ ì—¬ì
+		int k4 = 1 ;
+		switch (k4) {
 		case 1 :
-		case 3 : res = "³²ÀÚ";  break;
-		case 2 : 
-		case 4 : res = "¿©ÀÚ"; break;
+		case 3 : res = "ë‚¨ì"; break;
+		case 2 :
+		case 4 : res = "ì—¬ì"; break;
 		}
-	    System.out.println("°á°ú :" + res);
+		System.out.println("ê²°ê³¼ : " + res);
 		
-
-	// String k5ÀÌ ÇÑ±¹ÀÌ¸é = ¼­¿ï , Áß±¹ÀÌ¸é = ºÏ°æ , ÀÏº»ÀÌ¸é = µ¿°æ, ¹Ì±¹ÀÌ¸é = ¿ö½ÌÅÏ
-		String k5 = "ÇÑ±¹";
+		// String k5ì´ í•œêµ­ì´ë©´ ì„œìš¸, ì¤‘êµ­ì´ë©´ ë¶ê²½, ì¼ë³¸ì´ë©´ ë™ê²½, ë¯¸êµ­ì´ë©´ ì›Œì‹±í„´ 
+		String k5 = "í•œêµ­";
 		switch (k5) {
-		case "ÇÑ±¹": res = "¼­¿ï"; break;
-		case "Áß±¹": res = "ºÏ°æ"; break;		
-		case "ÀÏº»": res ="µ¿°æ"; break;
-		case "¹Ì±¹": res ="¿ö½ÌÅÏ"; break;			 
+		case "í•œêµ­": res = "ì„œìš¸"; break;
+		case "ì¤‘êµ­": res = "ë¶ê²½"; break;
+		case "ì¼ë³¸": res = "ë™ê²½"; break;
+		case "ë¯¸êµ­": res = "ìœ„ì‹±í„´"; break;
 		}
-		System.out.println("°á°ú :" + res);
-
+		System.out.println("ê²°ê³¼ : " + res);
 		
-		// switch¹®Àº ¹üÀ§°¡ ³Ğ¾îÁö¸é »ç¿ëÇÏÁö ¸»ÀÚ (if¹® »ç¿ëÇÏÀÚ)
-		// int k6ÀÇ Á¡¼ö°¡ 90ÀÌ»óÀÌ¸é A, 80ÀÌ»óÀÌ¸é B, 70ÀÌ»óÀÌ¸é C, ³ª¸ÓÁö F
+		// switchë¬¸ì€ ë²”ìœ„ê°€ ë„“ì–´ì§€ë©´ ì‚¬ìš©í•˜ì§€ ë§ì (ifë¬¸ ì‚¬ìš©í•˜ì)
+		// int k6ì˜ ì ìˆ˜ê°€ 90ì´ìƒì´ë©´ A, 80ì´ìƒì´ë©´ B, 70ì´ìƒì´ë©´ C, ë‚˜ë¨¸ì§€ F
 		int k6 = 94 ;
 		switch ((int)(k6/10)) {
-		case 10 :
-		case 9 : res = "A" ; break;
-		case 8 : res = "B" ; break;
-		case 7 : res = "C" ; break;
-		default : res = "F" ; break;  
-		}		
-		System.out.println("°á°ú :" + res);
-		
-		
-		
+		case 10:
+		case 9: res = "A" ; 	break;
+		case 8: res = "B" ; 	break;
+		case 7: res = "C" ; 	break;
+		default: res = "F" ; 	break;
 		}
+		System.out.println("ê²°ê³¼ : " + res);
+		
 	}
+}
+
+
+
+
+
+
+
+
+
 

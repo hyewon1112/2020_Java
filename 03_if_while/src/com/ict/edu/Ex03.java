@@ -2,126 +2,127 @@ package com.ict.edu;
 
 public class Ex03 {
 	public static void main(String[] args) {
-		// ÁßÃ¸ if¹® : if¹®À» ¿©·¯°³ »ç¿ëÇÑ ¹®
-		// Çü½Ä)	if(Á¶°Ç½Ä1){
-		//	 		   Á¶°Ç½Ä1ÀÌ ÂüÀÏ¶§ ½ÇÇà¹®Àå;
-		//		    }else if(Á¶°Ç½Ä2){
-		//			   Á¶°Ç½Ä1Àº °ÅÁþÀÌ°í, Á¶°Ç½Ä2°¡ ÂüÀÎ °æ¿ì ½ÇÇà¹®Àå;
-		//			}else if(Á¶°Ç½Ä3){
-		//			   Á¶°Ç½Ä1,2´Â °ÅÁþÀÌ°í, Á¶°Ç½Ä3°¡ ÂüÀÎ °æ¿ì ½ÇÇà¹®Àå;
-		//			}else{
-		//			   Á¶°Ç½Ä1,2,3 ¸ðµÎ °ÅÁþÀÏ¶§, Áï ³ª¸ÓÁö
-		//			}
-	
-		// int k1ÀÇ Á¡¼ö°¡ 90ÀÌ»óÀÌ¸é, A, 80ÀÌ»óÀÌ¸é B, 70ÀÌ»óÀÌ¸é C, ³ª¸ÓÁö F
-		int k1 = 91;
-		String res = "" ;
+		
+		// ì¤‘ì²© ifë¬¸ : ifë¬¸ì„ ì—¬ëŸ¬ê°œ ì‚¬ìš©í•œ ë¬¸
+		// í˜•ì‹)  if(ì¡°ê±´ì‹1){
+		//          ì¡°ê±´ì‹1ì´ ì°¸ì¼ë•Œ ì‹¤í–‰ë¬¸ìž¥;
+		//        }else if(ì¡°ê±´ì‹2){
+		//          ì¡°ê±´ì‹1ëŠ” ê±°ì§“ì´ê³ , ì¡°ê±´ì‹2ê°€ ì°¸ì¸ ê²½ìš° ì‹¤í–‰ë¬¸ìž¥;
+		//        }else if(ì¡°ê±´ì‹3){
+		//          ì¡°ê±´ì‹1,2ëŠ” ê±°ì§“ì´ê³ , ì¡°ê±´ì‹3ê°€ ì°¸ì¸ ê²½ìš° ì‹¤í–‰ë¬¸ìž¥;
+		//        }else{
+		//          ì¡°ê±´ì‹1,2,3, ëª¨ë‘ ê±°ì§“ì¼ë•Œ, ì¦‰ ë‚˜ë¨¸ì§€
+		//        }
+		
+		// int k1ì˜ ì ìˆ˜ê°€ 90ì´ìƒì´ë©´ A, 80ì´ìƒì´ë©´ B, 70ì´ìƒì´ë©´ C, ë‚˜ë¨¸ì§€ F
+		int k1 = 91 ;
+		String res = "";
 		if (k1 >= 90) {
-			res = "A" ;
-		} else if (k1 >= 80 ) {
-			res = "B" ;
-		} else if (k1 >= 70) {
-			res = "C" ;
-		} else {
-			res = "F" ;
-		}
-		System.out.println("°á°ú : " + res) ; 
-	
-		// char k2°¡ ´ë¹®ÀÚÀÎÁö, ¼Ò¹®ÀÚÀÎÁö, ¼ýÀÚÀÎÁö, ±âÅ¸¹®ÀÚÀÎÁö ÆÇº°
-		char k2 = 'a' ;
-		if (k2 >= 'A' &&  k2 <= 'Z') {
-			res = "´ë¹®ÀÚ";
-		} else if (k2 >= 'a' && k2 <= 'z') {
-			res = "¼Ò¹®ÀÚ";
-		} else if (k2>= '0' && k2 <= '9') {
-			res = "¼ýÀÚ";
-		} else {
-			res = "±âÅ¸¹®ÀÚ";
-		}
-		System.out.println("°á°ú :" + res );
-		
-		
-		// char k3°¡ A,aÀÌ¸é ¾ÆÇÁ¸®Ä« B,bÀÌ¸é ºê¶óÁú, C,cÀÌ¸é Ä³³ª´Ù ³ª¸ÓÁö ÇÑ±¹
-		char k3 = 'c' ;
-		if (k3 == 'A' || k3 == 'a') {
-			res = "¾ÆÇÁ¸®Ä«";
-		}else if (k3 == 'B' || k3 == 'b') {
-			res = "ºê¶óÁú";
-		}else if (k3 == 'C' || k3 == 'c') {
-			res = "Ä³³ª´Ù";
+			res = "A";
+		}else if (k1 >= 80) {
+			res = "B";
+		}else if (k1 >= 70) {
+			res = "C";
 		}else {
-			res = "ÇÑ±¹";
+			res = "F";
 		}
-		System.out.println("°á°ú :" + res );
+		System.out.println("ê²°ê³¼ : " + res);
 		
+		// char k2ê°€ ëŒ€ë¬¸ìžì¸ì§€, ì†Œë¬¸ìžì¸ì§€, ìˆ«ìžì¸ì§€, ê¸°íƒ€ë¬¸ìžì¸ì§€ íŒë³„
+		char k2 ='a';
+		if (k2 >='A' && k2<='Z') {
+			res = "ëŒ€ë¬¸ìž";
+		}else if (k2 >='a' && k2<='z') {
+			res = "ì†Œë¬¸ìž";
+		}else if (k2 >='0' && k2<='9') {
+			res = "ìˆ«ìž";
+		}else {
+			res = "ê¸°íƒ€ë¬¸ìž";
+		}
+		System.out.println("ê²°ê³¼ : " + res);
 		
-		// menu°¡ 1ÀÌ¸é Ä«Æä¸ðÄ« 3500, 2ÀÌ¸é Ä«Æä¶ó¶¼ 4000, 3ÀÌ¸é ¾Æ¸Þ¸®Ä«³ë 3000,
-		// 4ÀÌ¸é °úÀÏÁê½º 3500ÀÌ´Ù. Ä£±¸¿Í 2ÀÜÀ» 10000³»°í ¸Ô¾ú´Ù.
-		// ÀÜµ·Àº ¾ó¸¶ÀÎ°¡? (´Ü, ºÎ°¡¼¼ 10% Æ÷ÇÔ)
+		// char k3ê°€ A,aì´ë©´ ì•„í”„ë¦¬ì¹´ B,bì´ë©´ ë¸Œë¼ì§ˆ C,cì´ë©´ ìºë‚˜ë‹¤ ë‚˜ë¨¸ì§€ í•œêµ­
+		char k3 ='c';
+		if (k3 == 'A' || k3 =='a') {
+			res = "ì•„í”„ë¦¬ì¹´";
+		}else if (k3 == 'B' || k3 =='b') {
+			res = "ë¸Œë¼ì§ˆ";
+		}else if(k3 == 'C' || k3 =='c') {
+			res = "ìºë‚˜ë‹¤";
+		}else {
+			res ="í•œêµ­";
+		}
+		System.out.println("ê²°ê³¼ : " + res);
 		
+		// menuê°€ 1ì´ë©´ ì¹´íŽ˜ëª¨ì¹´ 3500, 2ì´ë©´ ì¹´íŽ˜ë¼ë–¼ 4000, 3ì´ë©´ ì•„ë©”ë¦¬ì¹´ë…¸ 3000,
+		// 4ì´ë©´ ê³¼ì¼ì¥¬ìŠ¤ 3500ì´ë‹¤. ì¹œêµ¬ì™€ 2ìž”ì„ 10000ë‚´ê³  ë¨¹ì—ˆë‹¤. 
+		// ìž”ëˆì€ ì–¼ë§ˆì¸ê°€? (ë‹¨, ë¶€ê°€ì„¸ 10% í¬í•¨)
 		int menu = 3 ;
-		
 		if (menu == 1) {
 			int dan = 3500 ;
-			String drink = "Ä«Æä¸ðÄ«";
+			String drink = "ì¹´íŽ˜ëª¨ì¹´";
 			int su = 2 ;
 			int total = dan * su ;
-			int vat = (int)(total * 0.1) ;
-			int input = 10000 ;
-			int output = input - (total + vat) ;
-			System.out.println("ÀÜµ· :" + output);
+			int vat = (int) (total * 0.1) ;
+			int input = 10000;
+			int output = input - (total + vat);
+			System.out.println("ìž”ëˆ : " + output);
 		}else if (menu == 2) {
 			int dan = 4000 ;
-			String drink = "Ä«Æä¶ó¶¼";
+			String drink = "ì¹´íŽ˜ë¼ë–¼";
 			int su = 2 ;
 			int total = dan * su ;
-			int vat = (int)(total * 0.1) ;
-			int input = 10000 ;
-			int output = input - (total + vat) ;
-			System.out.println("ÀÜµ· :" + output);
+			int vat = (int) (total * 0.1) ;
+			int input = 10000;
+			int output = input - (total + vat);
+			System.out.println("ìž”ëˆ : " + output);
 		}else if (menu == 3) {
 			int dan = 3000 ;
-			String drink = "¾Æ¸Þ¸®Ä«³ë";
+			String drink = "ì•„ë©”ë¦¬ì¹´ë…¸";
 			int su = 2 ;
 			int total = dan * su ;
-			int vat = (int)(total * 0.1) ;
-			int input = 10000 ;
-			int output = input - (total + vat) ;
-			System.out.println("ÀÜµ· :" + output);
+			int vat = (int) (total * 0.1) ;
+			int input = 10000;
+			int output = input - (total + vat);
+			System.out.println("ìž”ëˆ : " + output);
 		}else if (menu == 4) {
 			int dan = 3500 ;
-			String drink = "°úÀÏÁê½º";
+			String drink = "ê³¼ì¼ì¥¬ìŠ¤";
 			int su = 2 ;
 			int total = dan * su ;
-			int vat = (int)(total * 0.1) ;
-			int input = 10000 ;
-			int output = input - (total + vat) ;
-			System.out.println("ÀÜµ· :" + output);
+			int vat = (int) (total * 0.1) ;
+			int input = 10000;
+			int output = input - (total + vat);
+			System.out.println("ìž”ëˆ : " + output);
 		}
-		System.out.println("==== ¸®ÆÑÅä¸µ : 1. Áßº¹ÄÚµùÀ» ÁÙÀÌÀÚ");		
+		System.out.println("==== ë¦¬íŒ©í† ë§ : 1. ì¤‘ë³µì½”ë”©ì„ ì¤„ì´ìž");
 		
 		int dan2 = 0 ;
 		String drink2 = "";
 		if (menu == 1) {
 			dan2 = 3500 ;
-			drink2 = "Ä«Æä¸ðÄ«" ;
+			drink2 = "ì¹´íŽ˜ëª¨ì¹´";
 		}else if (menu == 2) {
 			dan2 = 4000 ;
-			drink2 = "Ä«Æä¶ó¶¼" ;
+			drink2 = "ì¹´íŽ˜ë¼ë–¼";
 		}else if (menu == 3) {
 			dan2 = 3000 ;
-			drink2 = "¾Æ¸Þ¸®Ä«³ë" ;
+			drink2 = "ì•„ë©”ë¦¬ì¹´ë…¸";
 		}else if (menu == 4) {
 			dan2 = 3500 ;
-			drink2 = "°úÀÏÁê½º" ;
+			drink2 = "ê³¼ì¼ì¥¬ìŠ¤";
 		}
-		
 		int su2 = 2 ;
 		int total2 = dan2 * su2 ;
-		int vat2 = (int)(total2 * 0.1) ;
-		int input2 = 10000 ;
-		int output2 = input2 - (total2 + vat2) ;
-		System.out.println("ÀÜµ· :" + output2);
+		int vat2 = (int) (total2 * 0.1) ;
+		int input2 = 10000;
+		int output2 = input2 - (total2 + vat2);
+		System.out.println("ìž”ëˆ : " + output2);
+		
+		
+		
+		
+		
 		
 		
 		
