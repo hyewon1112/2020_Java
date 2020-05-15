@@ -1,6 +1,5 @@
 class Ex01{
- public static void main(String[] args){
-  System.out.println("ÀÚ¹ÙÀÇ ²Ş");
- }
+     public static void main(String[] args){
+          System.out.println("ìë°”ì˜ ê¿ˆ");
+     }
 }
-

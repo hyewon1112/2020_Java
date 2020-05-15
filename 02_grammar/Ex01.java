@@ -1,21 +1,22 @@
 class Ex01{
 	public static void main(String[] args){
-	// booleanÇü µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏ°í Ãâ·ÂÇÏ´Â ¹æ¹ı
-	// 1. ¼±¾ğ : ÀÚ·áÇü ÀÌ¸§ ; // ¼±¾ğÀº Ã³À½ ÇÑ¹øÇÏ¸éµÈ´Ù.
-	boolean result ; 
-	// 2. µ¥ÀÌÅÍ ÀúÀå ; ÀÌ¸§ = µ¥ÀÌÅÍ (boolean)
-	    result = true;
-	// 3. µ¥ÀÌÅÍ¸¦ °¡Áö°í ÀÖ´Â º¯¼ö Ãâ·ÂÇÏ±â
-	//     º¯¼ö¸¦ È£ÃâÇÏ¸é º¯¼ö°¡ °¡Áö°í ÀÖ´Â µ¥ÀÌÅÍ°¡ ³ª¿Â´Ù. 
-	    System.out.println(result);
+	//  booleaní˜• ë°ì´í„°ë¥¼ ì €ì¥í•˜ê³  ì¶œë ¥í•˜ëŠ” ë°©ë²•
+	//  1. ì„ ì–¸ :  ìë£Œí˜•   ì´ë¦„ ;  // ì„ ì–¸ì€ ì²˜ìŒ í•œë²ˆí•˜ë©´ëœë‹¤.
+	      boolean result ;
 
-	//¼±¾ğµÈ  resultÀº ´Ù½Ã ¼±¾ğÇÏÁö ¾Ê°í »ç¿ë °¡´É
-	  result = false ; 
-	  System.out.println(result);
+	//  2. ë°ì´í„° ì €ì¥ ; ì´ë¦„ = ë°ì´í„° (boolean);
+          result =  true;
+	
+	// 3. ë°ì´í„°ë¥¼ ê°€ì§€ê³  ìˆëŠ” ë³€ìˆ˜ ì¶œë ¥í•˜ê¸° 
+                //     ë³€ìˆ˜ë¥¼ í˜¸ì¶œí•˜ë©´ ë³€ìˆ˜ê°€ ê°€ì§€ê³  ìˆëŠ” ë°ì´í„°ê°€ ë‚˜ì˜¤ë‹¤.
+	      System.out.println(result);
+	
+	// ì„ ì–¸ëœ resultì€ ë‹¤ì‹œ ì„ ì–¸í•˜ì§€ ì•Šê³  ì‚¬ìš© ê°€ëŠ¥
+	     result = false ;
+                     System.out.println(result);	
 
 	//  result = "true";
-	//  System.out.println(result);
-
+        //      System.out.println(result);	
 
 	}
 }
