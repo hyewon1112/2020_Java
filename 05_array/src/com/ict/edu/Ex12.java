@@ -9,9 +9,9 @@ public class Ex12 {
 		
 		// 입력
 		for (int i = 0; i < arr.length; i++) {
-			int[] ar = new 
+			int[] ar = new int[5]; 
 			
-			System.out.print("번호 : ") ;
+			System.out.println("번호 : ");
 			int no = sc.nextInt();
 			System.out.print("국어점수 : ");
 			int kor = sc.nextInt();
