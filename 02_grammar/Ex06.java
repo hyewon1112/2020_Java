@@ -1,59 +1,56 @@
 class Ex06{
 	public static void main(String[] args){
-	  // ¼ıÀÚµéÀÇ Å©±â¿¡ µû¸¥ ÀúÀå ¿ø¸®
-	  //  byte < short < char < int < long < float < double
+          // ìˆ«ìë“¤ì˜ í¬ê¸°ì— ë”°ë¥¸ ì €ì¥ ì›ë¦¬ 
+          // byte < short < char < int < long < float < double
 
-	  // 1. ÀÚ±âº¸´Ù Å« ÀÚ·áÇüÀ¸·Î´Â ÀÚÀ¯·Ó°Ô ÀúÀåÇÒ ¼ö ÀÖ´Ù. 
-	  // (ÀÚµ¿Çü º¯È¯, ÇÁ·Î¸ğ¼Ç)
-	   int s1 = 'A' ;
-	   System.out.println(s1);
+          // 1. ìê¸°ë³´ë‹¤ í° ìë£Œí˜•ìœ¼ë¡œëŠ” ììœ ë¡­ê²Œ ì €ì¥í•  ìˆ˜ ìˆë‹¤.
+	  // (ìë™í˜•ë³€í™˜, í”„ë¡œëª¨ì…˜)
+          int s1 = 'A';
+          System.out.println(s1);
 
-	   long s2 = 241;
-	   System.out.println(s2);
+          long s2 = 241;
+          System.out.println(s2);
 
-	   float s3 = s2 ;
-	   System.out.println(s3);
+          float s3 = s2 ;
+          System.out.println(s3);
 
-	   double s4 = s3 ;
-	   System.out.println(s4);
+          double s4 = s3 ;
+          System.out.println(s4);
 
-	   // 2. ÀÚ±âº¸´Ù ÀÛÀº ÀÚ·áÇüÀ¸·Î ÀúÀåÇÒ ¶§´Â ¿À·ù¹ß»ı
- 	   //    ¿À·ù¹ß»ıÀ» ¹æÁöÇÏ±â À§ÇØ¼­ °­Á¦·Î ÀÚ·áÇüÀ» º¯°æÇÑ´Ù.
-	   //    (°­Á¦ Çüº¯È¯, µğ¸ğ¼Ç, casting)
-	   //   °­Á¦ Çüº¯È¯¸¦ ÇÏ¸é µ¥ÀÌÅÍ°¡ º¯°æµÉ ¼öµµ ÀÖ´Ù.
-	   //   °­Á¦·Î Çüº¯È¯ ÇÏ´Â ¹æ¹ı
- 	   //   = À» ±âÁØÀ¸·Î ¹«Á¶°Ç ¿ŞÂÊ ÀÚ·áÇüÀ¸·Î ¸ÂÃç¾ß ÇÑ´Ù. 
-	   //    ÀÚ·áÇü ÀÌ¸§ = (¿ŞÂÊ ÀÚ·áÇü) (µ¥ÀÌÅÍ)
+	  // 2. ìê¸°ë³´ë‹¤ ì‘ì€ ìë£Œí˜•ìœ¼ë¡œ ì €ì¥í•  ë•ŒëŠ” ì˜¤ë¥˜ë°œìƒ
+          //   ì˜¤ë¥˜ë°œìƒì„ ë°©ì§€í•˜ê¸° ìœ„í•´ì„œ ê°•ì œë¡œ ìë£Œí˜•ì„ ë³€ê²½í•œë‹¤.
+          //  (ê°•ì œ í˜•ë³€í™˜, ë””ëª¨ì…˜, casting)
+          //  ê°•ì œ í˜•ë³€í™˜ë¥¼ í•˜ë©´ ë°ì´í„°ê°€ ë³€ê²½ë  ìˆ˜ë„ ìˆë‹¤. 
+          //  ê°•ì œë¡œ í˜•ë³€í™˜í•˜ëŠ” ë°©ë²•
+          //    = ì„ ê¸°ì¤€ìœ¼ë¡œ ë¬´ì¡°ê±´ ì™¼ìª½ ìë£Œí˜•ìœ¼ë¡œ ë§ì¶°ì•¼ í•œë‹¤.
+          //   ìë£Œí˜• ì´ë¦„ = (ì™¼ìª½ìë£Œí˜•)(ë°ì´í„°)
 
-	   byte b1 = (byte)(129) ;
-	   System.out.println(b1);
+          byte b1 = (byte)(129) ;
+          System.out.println(b1);
+       
+          int b2 = 110 ;
+          byte b3 = (byte)(b2) ;
+          System.out.println(b3);
+          	
+          float b4 = (float)(34.125);
+          System.out.println(b4);
+	
+          // ì •ìˆ˜
+          int b5 = (int)(87.12) ;
+          System.out.println(b5);
+                    
+         // 3. char í˜•ë³€í™˜
+          char c1 = 'a' + 2 ;
+          System.out.println(c1);
+     
+          char c2 = 97 + 2 ;
+          System.out.println(c2);
 
-	   int b2 = 110 ;
-	   byte b3 = (byte)(b2) ;
- 	   System.out.println(b3);
-
-	   float b4 = (float)(34.125);
-	   System.out.println(b4);
-
-	   // Á¤¼ö 
-	   int b5 = (int)(87.12);
-	   System.out.println(b5);
-
-	   // ¼Ò¼öÁ¡ Ã¹Â°ÀÚ¸®±îÁö ±¸ÇÏÀÚ
-	   // double b6 = 87.12 ;
-	   
-
-                // 3. char Çüº¯È¯
-	    char c1 = 'a' + 2 ;
-	    System.out.println(c1);
-	    
- 	    char c2 = 97 + 2 ;
- 	    System.out.println(c2);
-
-	    int b6 = c2 ;
-	    System.out.println(b6);
-
-	    
-	    
+          int b6 = c2 ;
+          System.out.println(b6); 
+         
 	}
 }
+
+
+

@@ -15,13 +15,9 @@ public class Ex12_main {
 		Ex12[] arr = new Ex12[5];
 
 		for (int i = 0; i < arr.length; i++) {
-			Ex12 person = new Ex12();
-
 			System.out.print("이름 : ");
-			// String name = sc.next();
-			// person.setName(name);
-			person.setName(sc.next());
-
+			String name = sc.next();
+			
 			System.out.print("국어점수 : ");
 			int kor = sc.nextInt();
 
@@ -31,28 +27,27 @@ public class Ex12_main {
 			System.out.print("수학점수 : ");
 			int math = sc.nextInt();
 
-			
 			// 총점
-			int sum = kor + eng + math ; 
+			int sum = kor + eng + math ;
 
 			// 평균
 			double avg = (int)(sum/3.0*10)/10.0 ;
-	
-			// 학점
-			String hak = " "; {
-				if(avg>=90) {
-					hak = "A";
-				}else if(avg>=80) {
-					hak = "B";
-				}else if(avg>=70) {
-					hak="C";
-				}else {
-					hak = "F";
-				}
 
-			Ex12 person = new Ex12(name, sum, avg, hak, 1);
-			arr[i] = person;
+			// 학점
+			String hak = "";
+			if(avg>=90) {
+				hak = "A";
+			}else if(avg>=80) {
+				hak = "B";
+			}else if(avg>=70) {
+				hak="C";
+			}else {
+				hak = "F";
+			}
 			
+			Ex12 person = new Ex12(name, sum, avg, hak, 1);
+			
+			arr[i] = person;
 		}
 
 		// 순위와 정렬, 출력

@@ -11,12 +11,11 @@ public class Ex01 {
 
 		// Scanner 클래스 : 키보드 정보를 입력받아서 처리하는 클래스
 		Scanner sc = new Scanner(System.in);
-
 		System.out.print("당신의 이름 : ");
 
 		// 입력한 내용이 String일 경우 처리하는 방법
 		String name = sc.next();
-		System.out.print("입력한 이름 : " + name);
+		System.out.println("입력한 이름 : " + name);
 
 		// 입력한 내용을 숫자(정수)로 처리 하는 방법
 		System.out.print("당신의 나이 : ");

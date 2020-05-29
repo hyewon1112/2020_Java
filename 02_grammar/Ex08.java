@@ -1,30 +1,32 @@
 class Ex08{
-	public static void main(String[] args){
-	 // ÂüÁ¶ ÀÚ·áÇü : Å¬·¡½º¸¦ ÀÚ·áÇüÀ¸·Î »ç¿ëÇÑ´Ù.
-	 // String Å¬·¡½º : ¹®ÀÚ¿­ Ã³¸®ÇÏ´Â ±â´ÉÀ» °¡Áö°í ÀÖ´Â Å¬·¡½º
-	 // String Å¬·¡½º´Â ±âº»ÀÚ·áÇüÀº ¾Æ´Ï´Ù.
-	 // String Å¬·¡½º´Â ÀÚ·áÇüÃ³·³ »ç¿ëÇÏ±â À§ÇØ¼­´Â ¹İµå½Ã ""¸¦ »ç¿ëÇØ¾ß µÈ´Ù.
+      public static void main(String[] args){
+	      
+       // ì°¸ì¡° ìë£Œí˜• : í´ë˜ìŠ¤ë¥¼ ìë£Œí˜•ìœ¼ë¡œ ì‚¬ìš©í•œë‹¤.
+       // String í´ë˜ìŠ¤ : ë¬¸ìì—´ ì²˜ë¦¬í•˜ëŠ” ê¸°ëŠ¥ì„ ê°€ì§€ê³  ìˆëŠ” í´ë˜ìŠ¤
+       // String í´ë˜ìŠ¤ëŠ” ê¸°ë³¸ìë£Œí˜•ì€ ì•„ë‹ˆë‹¤.
+       // String í´ë˜ìŠ¤ë¥¼ ìë£Œí˜•ì²˜ëŸ¼ ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œëŠ” ë°˜ë“œì‹œ "" ì‚¬ìš©í•´ì•¼ ëœë‹¤.
+      
+       String str = "hello";
+       System.out.println(str);
 
-	 String str = "hello";
-	 System.out.println(str);
+       // String + ì—°ì‚° : Stringì—ì„œ + ëŠ” ë§ì…ˆì´ ì•„ë‹ˆë‹¤. ë¬¸ìì—°ê²°ìì´ë‹¤.
+       //                 + ì—°ì‚°ì„ í•˜ë©´ ê²°ê³¼ëŠ” ë¬´ì¡°ê±´ String ì´ë‹¤.
 
-	 // String + ¿¬»ê : String¿¡¼­ + ´Â µ¡¼ÀÀÌ ¾Æ´Ï´Ù. ¹®ÀÚ ¿¬°áÀÚÀÌ´Ù.
-	 //  	           + ¿¬»êÀ» ÇÏ¸é °á°ú´Â ¹«Á¶°Ç String ÀÌ´Ù.
-	
-	str ="10000" ;
-	int su = 10000 ;
+       str = "10000" ;
+       int su = 10000 ;
 
-	System.out.println(str + 10);
-	System.out.println(su + 10);
+       System.out.println(str + 10);
+       System.out.println(su + 10);
 
-	 int su1 = 20 ;
-	 int su2 = 4 ;
-	 System.out.println(su1 + su2) ;
-	 System.out.println("°á°ú : " + su1 +su2) ;
- 	 System.out.println("°á°ú : " + (su1 +su2)) ;
+	int su1 = 20 ;
+        int su2 = 4 ;
+        System.out.println(su1 + su2);
+        System.out.println("ê²°ê³¼ : " + su1 + su2);
+        System.out.println("ê²°ê³¼ : " + (su1 + su2));
 
- 	 int su3 = su1 + su2 ;
-	 System.out.println("°á°ú : " +su3) ;
+	int su3 = su1 + su2 ;
+	System.out.println("ê²°ê³¼ : " + su3);          
 
-	}
+     }
 }
+

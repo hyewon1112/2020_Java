@@ -1,34 +1,35 @@
 class Ex05{
-	public static void main(String[] args){
-	 // ½Ç¼ö : ¼Ò¼ıÁ¡ÀÌ ÀÖÀ½
-	 // float < double
-	 // ½Ç¼öÀÇ ±âº» double
+      public static void main(String[] args){
+       // ì‹¤ìˆ˜ : ì†Œìˆ«ì ì´ ìˆìŒ
+       // float < double
+       // ì‹¤ìˆ˜ì˜ ê¸°ë³¸ double
 
-	 // float´Â ¼ıÀÚ µÚ¿¡ ¹İµå½Ã F³ª f¸¦ ºÙ¿©¾ß ÇÑ´Ù. (»ı·«ÇÏ¸é ¿À·ù)
-	 // 24°¡ Á¤¼öÀÌ¹Ç·Î float´Â ½Ç¼ö ±×·¯¹Ç·Î ÀúÀåÇÒ ¼ö ÀÖ´Ù.
-	  float su1 = 24 ; 
-	  System.out.println(su1);	
+       // floatëŠ” ìˆ«ì ë’¤ì— ë°˜ë“œì‹œ F, f ë¥¼ ë¶™ì—¬ì•¼ í•œë‹¤. (ìƒëµí•˜ë©´ ì˜¤ë¥˜)
+       // 24ê°€ ì •ìˆ˜ì´ë¯€ë¡œ floatëŠ” ì‹¤ìˆ˜ ê·¸ëŸ¬ë¯€ë¡œ ì €ì¥í•  ìˆ˜ ìˆë‹¤.
+	float su1 = 24 ;
+        System.out.println(su1);
 
-	// 31.4¿¡ f³ª F¸¦ ºÙ¿©¾ß ¿À·ù¹ß»ıÇÏÁö ¾ÊÀ½.
-	float su2 = 3.14f ;
-	System.out.println(su2);
+       // 31.4ì— f, Fë¥¼ ë¶™ì—¬ì•¼ ì˜¤ë¥˜ë°œìƒí•˜ì§€ ì•ŠìŒ
+        float su2 = 31.4f ;
+        System.out.println(su2);
 
-	// char c1´Â float¿¡ ÀúÀåÇÒ ¼ö ÀÖ´Ù.
-	 char c1 = 97 ;
-	 System.out.println(c1);
+       // char c1ëŠ” floatì— ì €ì¥í•  ìˆ˜ ìˆë‹¤.
+        char c1 = 97 ;
+        System.out.println(c1);
 
-	float su3 = c1 ;
-	System.out.println(su3);
+        float su3 = c1;
+ 	System.out.println(su3);
 
-	// doubleÀº byte, short, char , int, long, float ¸ğµÎ ¹Ş¾Æ¼­ ÀúÀåÇÒ ¼ö ÀÖ´Ù.
-	double su4 = 3.14 ;
-	System.out.println(su4);
+       // doubleì€ byte, short, char , int , long, float ëª¨ë‘ ë°›ì•„ì„œ ì €ì¥í•  ìˆ˜ ìˆë‹¤.
+        double su4 = 3.14 ;
+        System.out.println(su4);
 
-	double su5 = su3 ; 	
-	System.out.println(su5);
+	double su5 = su3 ;
+        System.out.println(su5);
 
-	double su6 = c1 ;
-	System.out.println(su6);
-
-	}
+ 	double su6 = c1 ;
+        System.out.println(su6);	     
+      }
 }
+
+

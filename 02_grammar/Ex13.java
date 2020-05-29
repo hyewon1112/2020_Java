@@ -1,13 +1,14 @@
 class Ex13{
-	public static void main(String[] args){
-	 // 2½Ã°£ 40ºÐ 30ÃÊ´Â ¸î ÃÊ ÀÏ±î¿ä?
-	 // String time = "2:40:30" ; // ³ªÁß¿¡
-	   
-	   int h = 2 * 60 * 60 ; // ½Ã°£ => ÃÊ
-	   int m = 40 * 60 ;     // ºÐ => ÃÊ
-	   int s = 30 ;              
-	   int result = h + m + s ;
-	   System.out.println("2½Ã°£ 40ºÐ 30ÃÊ´Â" + result + "ÀÔ´Ï´Ù.");
+    public static void main(String[] args){
+	    
+	// 2ì‹œê°„ 40ë¶„ 30ì´ˆëŠ” ëª‡ ì´ˆì¼ê¹Œìš”?
+	// String time = "2:40:30" ; // ë‚˜ì¤‘ì— 
+	
+	int h = 2 * 60 * 60 ; // ì‹œê°„ => ì´ˆ
+        int m = 40 * 60 ;     // ë¶„ => ì´ˆ
+        int s = 30 ;
+        int result = h + m + s ;
+        System.out.println("2ì‹œê°„ 40ë¶„ 30ì´ˆëŠ” " + result + "ìž…ë‹ˆë‹¤.");
 
-	}
+    }
 }

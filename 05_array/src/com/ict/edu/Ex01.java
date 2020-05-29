@@ -57,8 +57,7 @@ public class Ex01 {
 		 // 배열 전체에 대해서 정보 가공을 할 수 있으나 개별로는 가공할 수 없다.
 		  for (int k : su) {
 			  System.out.println((char)(k));
-		  }  
-		 
+		  }  	 
 	}
 }
 

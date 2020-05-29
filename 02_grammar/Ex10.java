@@ -1,17 +1,17 @@
 class Ex10{
-	public static void main(String[] args){
-	  // Áõ°¨ ¿¬»êÀÚ : 1 Áõ°¡ ¶Ç´Â 1 °¨¼Ò ÇÏ´Â ¿¬»êÀÚ
-	  //  char, Á¤¼öÇü, ½Ç¼öÇü¿¡ »ç¿ë °¡´É
-	  // ++ º¯¼ö : ÇöÀç°ªÀ» ¸ÕÀú 1Áõ°¡ ÇÏ°í ³ª¸ÓÁö ½ÇÇà
-	  // º¯¼ö ++ : ÇöÀç°ª °¡Áö°í ¿¬»ê ÈÄ ³ª¸ÓÁö ½ÇÇàÇÏ°í ³ªÁß¿¡ 1Áõ°¡
+      public static void main(String[] args){
+	      
+         // ì¦ê° ì—°ì‚°ì : 1 ì¦ê°€ ë˜ëŠ” 1 ê°ì†Œ í•˜ëŠ” ì—°ì‚°ì
+         //  char, ì •ìˆ˜í˜•, ì‹¤ìˆ˜í˜•ì— ì‚¬ìš© ê°€ëŠ¥
+         // ++ ë³€ìˆ˜ : í˜„ì¬ê°’ì„ ë¨¼ì € 1ì¦ê°€ í•˜ê³  ë‚˜ë¨¸ì§€ ì‹¤í–‰
+         // ë³€ìˆ˜ ++ : í˜„ì¬ê°’ ê°€ì§€ê³  ì—°ì‚° í›„ ë‚˜ì¤‘ì— 1ì¦ê°€ 
 
-	  int su1 = 10 ;
-	  int su2 = 10 ;
-	  
- 	  System.out.println(++ su1);
-	  System.out.println(su2 ++);
-	  System.out.println(su1);
-	  System.out.println(su2);
+ 	int su1 = 10 ;
+	int su2 = 10 ;
 
-	}
+	System.out.println(++ su1);
+	System.out.println(su2 ++);
+	System.out.println(su1);
+	System.out.println(su2);
+      }
 }

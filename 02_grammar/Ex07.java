@@ -1,55 +1,62 @@
 class Ex07{
-	public static void main(String[] args){
-	  // ¼öÀÇ ¿¬»ê¿¡ µû¸¥ ÀÚ·áÇü º¯È¯
-	  // ¿¬»ê ÈÄ ¹«Á¶°Ç Å« ÀÚ·áÇüÀ¸·Î º¯°æµÊ
-	  // ¿¹¿Ü) byte, short´Â ¿¬»êÇÏ¸é ¹«Á¶°Ç int ÀÌ»óÀÇ ÀÚ·áÇüÀ¸·Î º¯°æ
-	 byte su1 = 20 ;
-	 short su2 = 25;
-	 int su3 = 30 ;
-	 long su4 = 35 ;
-	
-	 float su5 = 34.1f;
-	 double su6 = 247.12 ;
+      public static void main(String[] args){
+	// ìˆ˜ì˜ ì—°ì‚°ì— ë”°ë¥¸ ìë£Œí˜• ë³€í™˜
+        // ì—°ì‚° í›„ ë¬´ì¡°ê±´ í° ìë£Œí˜•ìœ¼ë¡œ ë³€ê²½ë¨
+        // ì˜ˆì™¸) byte, shortëŠ” ì—°ì‚°í•˜ë©´ ë¬´ì¡°ê±´ int ì´ìƒì˜ ìë£Œí˜•ìœ¼ë¡œ ë³€ê²½
+        byte su1 = 20;
+        short su2 = 25 ;
+        int su3 = 30 ;
+	long su4 = 35 ;
 
-	// byte(short) + byte = int
-	  int res1 = su1 + su1 ;
-	  System.out.println(res1);
+        float su5 = 34.1f;
+        double su6 = 247.12 ;
 
-              // byte(short) + short = int
-	  int res2 = su1+ su2 ;
-	  System.out.println(res2);
+        // byte(short) + byte  = int
+        int res1 = su1 + su1 ;
+        System.out.println(res1); 
 
-	// byte(short) + int = int
-	// byte(short) + long = long
-	// byte(short) + float = float
-	// byte(short) + double = double
+        // byte(short) + short = int
+        int res2 = su1 + su2 ;
+        System.out.println(res2);
 
-	// int + int = int
-	// int + long = long
-	// int + float = float 
-	// int + double = double
-	
-	// long + long = long
-	// long + int = long
-	// long + float = float
-	// long + double = double
+        // byte(short) + int = int
+        // byte(short) + long = long
+        // byte(short) + float = float
+        // byte(short) + double = double
 
-	// float + float = float
-	// float + double = double
+        // int + int  = int 
+        // int + long = long
+        // int + float = float
+        // int + double = double
+         
+        // long + long = long
+        // long + int = long
+        // long + float = float
+        // long + double = double
 
-	// ¼Ò¼ıÁ¡ Ã¹Â°ÀÚ¸® ±îÁö ±¸ÇÏÀÚ
-	double num1 = 83.5555 ;
-	int num2 = (int)(num1 * 100) ;
-	System.out.println(num2);
-	double num3 = num2/100.0 ;
-	System.out.println(num3);
+        // float + float = float
+        // float + double = double
 
-	// ÀÏÀÇ ÀÚ¸® Àı»èÇÏ±â
-	  int num4 = 12758 ;
-	  int num5 = num4 / 10 ;
-	  System.out.println(num5);
-	  int num6 = num5 * 10 ; 
-	  System.out.println(num6);
+        // ì†Œìˆ«ì  ì²«ì§¸ìë¦¬ ê¹Œì§€ êµ¬í•˜ì 
+        double num1 = 83.5555;
+        int num2 = (int)(num1 * 100) ;
+        System.out.println(num2);
+        double num3 = num2/100.0 ;
+        System.out.println(num3);
+       
+        // ì¼ì˜ ìë¦¬ ì ˆì‚­í•˜ê¸° 
+        int num4 = 12758 ;
+        int num5 = num4 / 10 ;
+        System.out.println(num5);
+        int num6 = num5 * 10 ;
+	System.out.println(num6);  
+	      
 
-	}
+      }
 }
+
+
+
+
+
+
