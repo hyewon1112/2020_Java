@@ -6,7 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="List"/>
 		<list key="findhistory">
+			<item value="list"/>
+			<item value="ip"/>
 			<item value="if(msg.length()&gt;=1) {"/>
 		</list>
 		<list key="replacehistory">
